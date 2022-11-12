@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+</head>
+<body style="background:linear-gradient(217deg, rgba(11, 177, 170, 0.5), rgba(255,0,0,0) 70.71%),
+linear-gradient(127deg, rgba(3, 118, 170, 0.5), rgba(0,255,0,0) 70.71%),
+linear-gradient(336deg, rgba(11, 177, 170,.5), rgba(0,0,255,0) 70.71%); width: 100%; height:100%;">-->
+    <nav class="navbar navbar-expand-md sticky-top shadow" style="background-color: #0376AA;">
+        <a class="navbar-brand" href="#">
+            <img src="img/Isotipo_blanco.png" alt="Logo" style="width:60px;">
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" style="background-color: #0BB1AA;" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <label for="" style="color: white;"><span class="navbar-toggler-icon"></span></label>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link letrasMenuNav" href="index.html">Reporte Semanal</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link letrasMenuNav" href="#">Reporte Mensual</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link letrasMenuNav" href="#">Reporte Anual</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letrasMenuNav" href="dashboard.html">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="text-white text-center my-3">
+            <h1>Estatus de Funcionamiento de Equipos Mantenimiento Región Laguna</h1>
+            <br>
+            <h3>Semana 43 del 24 de octubre al 30 de octubre de 2022.</h3>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 text-center tablaBordes">
+                <table class="table">
+                    <thead class="rowEncabezado">
+                        <th colspan="3">Totales</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background: rgb(68, 255, 0);">Activos</td>
+                            <td style="background: rgb(234, 255, 0);">Reactivos</td>
+                            <td style="background: rgb(255,0,0);">Inactivos</td>
+                        </tr>
+                        <tr class="rowPar">
+                            <td>676</td>
+                            <td>0</td>
+                            <td>13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table tablaBordes my-5" style="background: white;border: 2px black solid;">
+                <thead class="rowEncabezado">
+                    <tr>
+                        <th rowspan="2">Equipo</th>
+                        <th colspan="3">Equipos CCTV</th>
+                        <th colspan="3">Equipos CCAA</th>
+                        <th colspan="3">Suministros de energia</th>
+                        <th colspan="3">SERVIDORES / WORKSTATION</th>
+                        <th>TOTAL</th>
+                    </tr>
+                    <tr>
+                        <td>Activos</td>
+                        <td>Reactivos</td>
+                        <td>Inactivos</td>
+
+                        <td>Activos</td>
+                        <td>Reactivos</td>
+                        <td>Inactivos</td>
+
+                        <td>Activos</td>
+                        <td>Reactivos</td>
+                        <td>Inactivos</td>
+
+                        <td>Activos</td>
+                        <td>Reactivos</td>
+                        <td>Inactivos</td>
+
+                        <td></td>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="rowImpar">
+                        <td>1. Planta I (Plomo – Zinc)</td>
+
+                        <td>134</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>29</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>10</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>2. Planta II (Refinería)</td>
+
+                        <td>172</td>
+                        <td>0</td>
+                        <td>4</td>
+
+                        <td>16</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>4</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>6</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>4. Oficinas Generales</td>
+
+                        <td>72</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>4</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>8. Fertirey</td>
+
+                        <td>22</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>16. Estacionamiento Velardeña</td>
+
+                        <td>8</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>7</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>22. Velardeña</td>
+
+                        <td>30</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>14</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+
+
+                        <td>2</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>23. Bermejillo</td>
+
+                        <td>12</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>5. CECOM</td>
+
+                        <td>18</td>
+                        <td>0</td>
+                        <td>2</td>
+
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>2</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>6. U.S.A.</td>
+
+                        <td>11</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>12. Taller Central</td>
+
+                        <td>34</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>17. Aleazin</td>
+
+                        <td>32</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                    </tr>
+                    <tr class="rowPar">
+                        <td>18. Industrias Magnelec</td>
+
+                        <td>32</td>
+                        <td>0</td>
+                        <td>1</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>1</td>
+                    </tr>
+                    <tr class="rowImpar">
+                        <td>Totales</td>
+
+                        <td>577</td>
+                        <td>0</td>
+                        <td>9</td>
+
+                        <td>70</td>
+                        <td>0</td>
+                        <td>2</td>
+
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                        <td>29</td>
+                        <td>0</td>
+                        <td>2</td>
+
+                        <td>13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
